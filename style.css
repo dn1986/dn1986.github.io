@@ -1,22 +1,18 @@
-ul > li {
-    font-size: 0.8rem;
-}
+        /* 헤더 */
+        /* 헤더A: 사이트이름 */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 100;
+            background-color: rgba(0,0,0,0.7);
+            border-bottom: 1px solid #dcdcdc;
+        }
 
-/* 헤더 */ 
-/* 헤더A: 사이트이름 */
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 100;
-    background-color: rgba(0,0,0,0.7);
-    border-bottom: 1px solid #dcdcdc;
-}
- 
-.nohero header + * {
-    margin-top: 50px;
-}
+        .nohero header + * {
+            margin-top: 50px;
+        }
 
         .headA {
             display: inline-block;
@@ -120,22 +116,20 @@ header {
             }
         }
 
-        /* 콘텐츠 페이지 */
-        .post .container {
-            max-width: 800px;
-            max-width: var(--middle-width);
-            margin-right: auto;
-            margin-left: auto;
-            padding: 10px;
-        }
+/* 콘텐츠 페이지 */
+.post .container {
+    max-width: 800px;
+    max-width: var(--middle-width);
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}
 
-        .post img {
-            max-width: 100%;
-        }
-
-        .post p {
-            font-size: 0.8rem;
-        }
+.post img {
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
         /* 푸터 */
         footer {
